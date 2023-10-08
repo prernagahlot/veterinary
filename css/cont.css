@@ -1,0 +1,106 @@
+@import url("style.css");
+
+#nav_1 {
+    background-color: #44589e;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+    
+a:hover
+{
+       
+}
+.cont-bg
+{
+    
+    background-color:  white;
+    padding-top: 140px;
+
+}
+.h11
+{
+    font-size: 1.3rem;
+}
+
+.con
+{
+    padding-top: 40px;
+}
+
+.para
+{
+    font-size: 1.4rem;
+}
+
+.icon
+{
+    font-size: 1.8rem;
+    margin: 6px;
+
+}
+p
+{
+    font-size: 1.2rem;
+    opacity: 1;
+}
+.page
+{
+   /* background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    
+    */
+    padding-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+     
+/* From https://css.glass */
+background:   #44589e;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+backdrop-filter: blur(3.1px);
+-webkit-backdrop-filter: blur(3.1px);
+border: 1px solid rgba(255, 255, 255, 0.08);    
+z-index: 1;
+/* From https://css.glass */
+    /* From https://css.glass */
+
+}
+.heading
+{
+font-size: 1.5rem;
+font-weight: bolder;
+}
+
+@media only screen and (max-width:414px){
+     
+    .cont-bg{
+    padding-left: 45px;
+    padding-right: 56px;
+    padding-bottom: 20px;
+    }
+    .para
+    {
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .h11
+    {
+        font-size: 1.3rem;
+    }
+
+    .row.justify-content-center.text-white.footer {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .page
+    {
+        padding-bottom: 10px;
+    }
+}
+    

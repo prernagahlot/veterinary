@@ -1,0 +1,161 @@
+@import url('style.css');
+
+#nav_1 {
+    background-color: #44589e!important;
+    z-index: 99;
+    padding-left: 10px;
+}
+#box {
+    width: 31%;
+    background-color: #ffffff;
+    color: white;
+    border-radius: 0px;
+    left: -99px;
+    margin-left: 26px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+    padding-left: -12px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 759px;
+}
+
+
+i.bi.bi-search-heart-fill.h2 {
+    color:  #44589e;
+}
+#list
+{
+    list-style: none;
+}
+.section
+{
+    padding-top: 128px;
+    background-color: #44589e;
+}
+
+
+#search {
+    background-color: #44589e;
+    color: rgb(255, 255, 255);
+}
+.head {
+    padding-left: 114px;
+   color: #313136ad;
+}
+
+
+.col-md-4.text-center {
+    margin-bottom: 25px;
+}
+
+h1:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+
+.circle a
+{
+    text-decoration: none !important;
+ color: white;
+}
+
+
+.video
+{
+    z-index: 1;
+}
+img.img-fluid.round{
+    max-width: 60%;
+    height: auto;
+}
+
+img.img-fluid.food{
+    max-width: 80%;
+    height: auto;
+}
+
+h1.cat {
+    font-size: 3.5rem;
+}
+#close
+{
+    display: block;
+}
+
+    #cart {
+        height: 1000px;
+        width: 400px;
+        position: fixed;
+        bottom: 199px;
+        z-index: 99;
+        display: none;
+   color: white;
+           top: 94px;
+        /* From https://css.glass */
+background: #44589e9c;
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.1);
+
+        animation: 1s slide-right;
+        
+}
+
+
+      
+    
+      @keyframes slide-right {
+        from {
+          margin-left: -100%;
+        }
+        to {
+          margin-left: 0%;
+        }
+      }
+      @keyframes slide-left {
+        from {
+          margin-left: 100%;
+        }
+        to {
+          margin-left: 0%;
+        }
+    }
+    #icon
+    {
+        background-color: white!important;
+    }
+    .btn
+    {
+        background-color:   #44589e!important;
+        color: white!important;
+    }
+.c-box
+{
+    margin-left: 1px!important;
+}
+
+@media only screen and (max-width: 414px) {
+    
+    #box {
+        
+        margin-left: 209px;
+        width: 65%;
+        left: -149px;
+    }
+
+    h1.head {
+        text-align: center;
+    }
+
+
+        #cart{
+            width: 190px;
+        }
+    
+}

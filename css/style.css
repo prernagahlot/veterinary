@@ -1,0 +1,369 @@
+/* nav */
+#nav_1 {
+    background-color:  #44589e!important;
+    z-index: 99;
+}
+
+.typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgba(160, 159, 158, 0.87); /* The typwriter cursor */
+    white-space: nowrap;  /*Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+     /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40,end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 255, 255); }
+  }
+
+
+
+
+
+.text {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.form {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 300px;
+}
+
+#submit-m {
+    margin-top: 20px;
+    background-color: #f5bd05;
+    color: white;
+}
+
+.formbox {
+    background-color: #f9db03;
+}
+
+li.nav-item {
+    padding-left: 25px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+#bt-1 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#bt-2 a {
+    text-decoration: none;
+    color: white;
+}
+
+#search {
+    background-color: #00bec9;
+    color: rgb(255, 255, 255);
+}
+
+#banner {
+    background-color: #44589e;
+    padding-top: 78px;
+    padding-bottom: 40px;
+}
+
+#box {
+
+    background-color: #ffffff;
+
+    color: black;
+    border-radius: 0px;
+    left: 50px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+}
+
+#search::placeholder {
+    color: rgb(252, 250, 250);
+}
+
+#git {
+
+    color: white;
+    font-size: 45px;
+
+}
+
+.btn {
+    color: white;
+
+
+}
+
+.navbar-brand {
+    padding-bottom: 10px;
+}
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    padding-top: 17px;
+}
+
+
+
+#banner-text {
+    margin-top: 116px;
+}
+
+#banner-text h1 {
+    font-size: 48px;
+    color: white;
+}
+
+#banner-text p {
+    font-size: 20px;
+    color: rgb(243, 236, 236);
+}
+
+
+#doc-text {
+    margin-top: 92px;
+
+}
+
+#doc-text p {
+    color: rgb(143, 136, 136);
+}
+
+#btn {
+    color: rgb(255, 255, 255);
+    background-color:  #44589e;
+}
+
+#bt-1 {
+    color: rgb(255, 255, 255);
+    background-color: white;
+}
+
+#bt-2 {
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+}
+
+
+
+#black {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#c-section {
+    position: relative;
+    background-image: url('../video/bot-4.jpg');
+    background-position-y: -360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    padding-top: 147px;
+    padding-bottom: 80px;
+    opacity: 1;
+
+}
+
+
+.icon {
+    color: white;
+    font-size: 55px;
+    z-index: 99;
+    opacity: 1;
+}
+
+
+#c-section::before {
+    content: "";
+    position: absolute;
+    background-color: #55451191;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+}
+
+
+
+.image-box {
+    border: 1px solid rgb(170, 162, 162);
+    border-top: 0px;
+    margin-left: 20px;
+}
+
+#blog {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.read {
+    color:  #44589e;
+}
+
+.date {
+    margin-top: 10px;
+    color:  #44589e;
+    margin-bottom: 0px;
+}
+
+.he {
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.hf {
+    font-size: 2.2rem;
+    font-weight: bolder;
+}
+
+.footer {
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+
+}
+
+form #text {
+
+    width: 300px;
+    padding: 10px 0px;
+    color: white;
+    background-color:  #44589e;
+    border: 1px solid white;
+}
+
+form .submit {
+    padding: 10px 20px;
+    background-color:  #44589e;
+    border: 1px solid white;
+}
+
+
+@media only screen and (max-width:375px) 
+{
+    #banner-text h1 {
+        font-size: 33px;
+            margin-right: 78px!important;
+        }
+}
+
+
+
+@media only screen and (max-width:414px) {
+    #c-section {
+        position: relative;
+        background-image: url('../video/bot-6.jpg');
+        background-position-y: 8px;
+        background-position-x: -103px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+        padding-top: 147px;
+        padding-bottom: 80px;
+        opacity: 1;
+
+       
+
+    }
+
+    .typewriter {
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid rgb(255, 255, 255); /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: 0em; /* Adjust as needed */
+        animation: 
+          typing 3.5s steps(40, end),
+          blink-caret .75s step-end infinite;
+      }
+      
+      /* The typing effect */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 70% }
+      }
+      
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        30% { border-color: rgb(255, 255, 255); }
+      }
+
+      #banner-text h1 {
+        font-size: 33px;
+            margin-right: 124px;
+        }
+    
+
+
+
+    .col-md-2.foot-1 {
+        padding-bottom: 30px;
+    }
+
+
+    .container-fluid {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #banner-text {
+        margin-top: 41px;
+    }
+
+    #black {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+
+    .row.justify-content-center.text-white.footer {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 112px;
+    }
+
+    form #text {
+        width: 270px;
+    }
+
+    div#doc-img {
+        width: 253px;
+        margin-left: 104px;
+
+    }
+
+    #c-section::before {
+        top: 7px;
+    }
+
+    #blog {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 19px;
+        padding-right: 44px;
+    }
+
+    .footer {
+        padding-bottom: 170px;
+    }
+}

@@ -1,0 +1,7 @@
+@import url('style.css');
+.cart
+{
+    height: 200px;
+    width: 400px;
+    background-color: black;
+}

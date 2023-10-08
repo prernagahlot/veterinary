@@ -1,0 +1,117 @@
+@import url("style.css");
+footer {
+    margin-top: 0px;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+.col-md-3.form {
+    margin-top: 100px;
+    height: 400px;
+
+}
+
+.form .form-control
+{
+    background-color: #f9d7f970;
+
+}
+
+.form
+{
+    background-color: #20244d80;
+
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+z-index: 99;
+
+}
+form {
+    margin-top: 40px;
+}
+
+
+
+.heading
+{
+    font-size: 1.2rem;
+
+    color: #ffffff;
+    text-shadow:
+      0 0 7px #0000006e,
+      0 0 10px #a09e9e6e,
+      0 0 21px  #f9d7f970,
+      0 0 42px  #f9d7f970,
+      0 0 82px  #f9d7f970,
+      0 0 92px  #f9d7f970,
+      0 0 102px  #f9d7f970,
+      0 0 151px  #f9d7f970;
+      z-index: 99;
+
+}
+
+.col-md-4.img {
+    margin-top: 36px;
+}
+
+.row.justify-content-center.body-1 {
+    margin-top: -80px;
+}
+
+#box{
+    background-color: #010141;
+}
+
+ .heading.text-center {
+        margin-top: 162px;
+    };
+
+
+.contform
+{
+    background-color: rgba(255, 208, 0, 0.582);
+}
+#submit-m {
+    margin-top: 20px;
+    background-color: #e9b3ddb8;
+    color: white;
+    border: 2px solid #ffff0000;
+}
+
+    @media only screen and (max-width: 424px)
+    {
+  .col-md-3.form {
+    width: 70%;}
+    .footer 
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    
+.heading.text-center {
+    margin-top: 211px;
+    padding-left: 31px;
+}
+}
+
